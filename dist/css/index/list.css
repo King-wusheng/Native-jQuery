@@ -1,0 +1,303 @@
+@charset "UTF-8";
+.center {
+  width: 1300px;
+  margin: 100px auto;
+}
+
+.center > #left_box {
+  width: 400px;
+  float: left;
+  position: relative;
+}
+
+.center > #left_box .box {
+  float: left;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.center > #left_box .max {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 410px;
+  top: 0;
+  display: none;
+  overflow: hidden;
+}
+
+.center .sharelist {
+  position: absolute;
+  top: 463px;
+  height: 20px;
+  width: 400px;
+  margin-top: 18px;
+  background: #f9f9f9;
+  border: 1px solid #eaeaea;
+  padding: 5px 0;
+  padding-left: 6px;
+}
+
+.center .sharelist > .bshare-custom {
+  width: 250px;
+  float: left;
+  font-size: 13px;
+  line-height: 16px !important;
+  margin-top: 6px;
+}
+
+.filter {
+  width: 150px;
+  height: 150px;
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+  display: none;
+}
+
+.max {
+  border: 1px solid #eee;
+  background: #fff;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  z-index: 100;
+}
+
+.bigImg {
+  position: absolute;
+}
+
+#minImg {
+  float: left;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.bshare-qzone {
+  background: url(../../image/tb.png) no-repeat 0 -234px;
+  display: inline-block;
+}
+
+.bshare-sinaminiblog {
+  background: url(../../image/tb.png) no-repeat 0 -270px;
+  display: inline-block;
+}
+
+.bshare-renren {
+  background: url(../../image/tb.png) no-repeat 0 -252px;
+  display: inline-block;
+}
+
+.bshare-qqmb {
+  background: url(../../image/tb.png) no-repeat 0 -198px;
+  display: inline-block;
+}
+
+.bshare-neteasemb {
+  background: url(../../image/tb.png) no-repeat 0 -162px;
+  display: inline-block;
+}
+
+.more-style-addthis {
+  background: url(../../image/jia.png) no-repeat 0 -1px;
+}
+
+.bshare-custom a {
+  display: block;
+  float: left;
+  padding-left: 19px;
+  height: 18px;
+  text-decoration: none;
+  zoom: 1;
+  cursor: pointer;
+  color: #333;
+  margin-right: 3px;
+  opacity: 1;
+}
+
+.collect {
+  float: left;
+  padding-left: 20px;
+  margin-top: 6px;
+  line-height: 18px;
+  background: url(../../image/list2.png) no-repeat;
+  background-position: -16px -27px;
+  padding-left: 20px;
+  margin-top: 6px;
+  line-height: 18px;
+}
+
+.topIntro {
+  float: right;
+  width: 800px;
+  margin-left: 20px;
+}
+
+.topIntro > h1 {
+  color: #000;
+  margin: 0 0 8px 0;
+}
+
+.topIntro > h2 {
+  color: #ff3433;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #e6e6e6;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 4px;
+  margin-bottom: 15px;
+}
+
+.topIntro > .fl {
+  float: left;
+}
+
+.topIntro > .fl > div {
+  border-bottom: 1px dashed #e6e6e6;
+}
+
+.topIntro > .fl > div > ul > li {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.topIntro > .fl > div > ul > li > span {
+  float: left;
+  color: #999999;
+  margin-right: 20px;
+  padding-left: 5px;
+}
+
+.topIntro > .fl > div > ul > li > strong {
+  color: #e60000;
+  font-size: 22px;
+}
+
+.summary li.price strong {
+  color: #e60000;
+  font-size: 22px;
+}
+
+.summary .star em, .comment_rate .l em {
+  position: relative;
+  vertical-align: top;
+  margin-right: 3px;
+}
+
+.summary .star i, .comment_rate .l em i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: 0 -19px;
+}
+
+.pj em {
+  float: left;
+  width: 71px;
+  height: 15px;
+  overflow: hidden;
+}
+
+.pj > strong {
+  margin-left: 10px;
+}
+
+.pj > a {
+  color: #0066cc;
+  margin-left: 4px;
+}
+
+.summary .star strong {
+  color: #e60000;
+  padding-right: 1px;
+}
+
+.summary .star a {
+  color: #0066cc;
+  margin-left: 4px;
+}
+
+.summary li.gifi, .summary li.sale, .summary li.chbuy {
+  margin-bottom: 15px;
+}
+
+.sale > span {
+  display: block;
+}
+
+.sale div {
+  float: left;
+  padding-top: 2px;
+}
+
+.sale h3 {
+  margin: 0 0 5px 0;
+}
+
+.sale h3 p {
+  color: #999;
+}
+
+.sale h3 p i {
+  color: #f33;
+  padding-right: 2px;
+}
+
+.frame .num span {
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+.reduce {
+  width: 25px;
+  height: 25px;
+}
+
+.val {
+  width: 40px;
+  height: 25px;
+  text-align: center;
+}
+
+.add {
+  width: 25px;
+  height: 25px;
+}
+
+.jia {
+  border: 1px solid #f58502;
+  background: #fea100;
+  color: #fff;
+  display: inline-block;
+  width: 170px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  text-align: center;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.jin {
+  background: #f33;
+  border: 1px solid #f33;
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  text-align: center;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.jin > i {
+  background: url(../../image/list2.png) no-repeat;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index/index.css">
+	<link rel="stylesheet" href="../css/index/reset.css">
+	<link rel="stylesheet" href="../css/index/shopcar.css">
+</head>
+<body>
+    <div class="topnav" id="header"></div>
+    <div class="w shopcartHead">
+        <div class="logo fl">
+            <a href="index.html">
+                <img src="../image/car.jpg">
+            </a>
+        </div>
+        <div class="shopcartStep">
+            <ul class="headerShoppingStep">
+                <li class="active">
+                    <div class="line"></div>
+                    <div class="radius">1</div>
+                    <span class="title">购物车</span>
+                </li>
+                <li>
+                    <div class="line"></div>
+                    <div class="radius">2</div>
+                    <span class="title">填写并核对订单信息</span>
+                </li>
+                <li>
+                    <div class="line"></div>
+                    <div class="radius">3</div>
+                    <span class="title">成功提交订单</span>
+                </li>
+                <li>
+                    <div class="line"></div>
+                    <div class="radius">4</div>
+                    <span class="title">支付成功</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="shopcart_wrap">
+        <div class="w">
+            
+            <div class="regionTo clearfix" data-bind="visible:!readOnly()">
+                <div class="cart_tit">购物车</div>
+                <a href="index.html" class="fr but">继续购物&nbsp;&gt;</a>
+            </div>
+            
+            <div class="cartMain">
+                <div class="cartTh">
+                    <div class="c_check">
+                        <input type="checkbox" class="all" />
+                        全选&nbsp;
+    
+                    </div>
+                    <div class="c_name">商品</div>
+                    <div class="c_price">单价</div>
+                    <div class="c_num">数量</div>
+                    <div class="c_total">小计（元）</div>
+                    <div class="c_operate">操作</div>
+                </div>
+    
+    
+                <ul class="cartTd">
+                    
+                </ul>
+                
+                <div class="upjiesuan" >
+                    <div class="options">
+                        <input type="checkbox" class="all1"/>全选
+                    </div>
+                    <div class="fr btn_area">
+                        <a href="#">去结算</a>
+                    </div>
+                    <div class="fr price_sum">
+                        <div>
+                            <span class="txt">总价（不含运费）：</span>
+                            <span class="price sumPrice">¥<b class="allprice">0</b>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fr amount_sum">已选择<b>0</b>件商品/</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="../js/common/header/header.js"></script>
+<script src="../js/common/header/page.js"></script>
+<script src="../js/common/header_main.js"></script>
+<script src="../js/common/header/search .js"></script>
+<script src="../js/common/header/shopcar1.js"></script>
+<script>
+    if(localStorage.getItem("info")){
+        var num = JSON.parse(localStorage.getItem("info")).length
+        $(".mini_num").text(num)
+    }else{
+        $(".mini_num").text(0)
+    }
+
+    var arr = []
+    arr = JSON.parse(localStorage.getItem("info"))
+    console.log(arr.length)
+    var num = arr.length
+    $(".mini_num").text(num)
+</script>

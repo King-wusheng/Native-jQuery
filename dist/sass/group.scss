@@ -1,0 +1,137 @@
+
+body{
+    width:100%;
+    height:2000px;
+}
+.mainnav .mallCategory > .mallSort > .sortLink{
+    background:#1396a0;
+}
+.nav1>ul>li>a{
+    color: white
+}
+.mainnav{
+    background:#1396a0;
+}
+.banner{
+    width:100%;    
+    overflow: hidden;
+}
+
+.sub-warp {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    &>.exclusive-t {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        &>h1{
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: center;
+        }
+    }
+    &>.exclusive-c {
+        width: 1205px;
+        margin-top: 20px;
+        position: relative;
+        float: left;
+        &>ul>li{
+            float: left;
+            width: 236px;
+            margin: 0px 5px 0px 0px;
+            overflow: hidden;
+            position: relative;
+            line-height: 0;
+            &>a>div{
+                display: block;
+                color: #fff;
+                width: 196px;
+                height: 276px;
+                background: rgba(255,0,0,0.7);
+                text-align: left;
+                position: absolute;
+                top: 399px;
+                left: 0;
+                font-size: 16px;
+                padding: 20px 20px 0;
+                line-height: 30px;
+                text-indent: 2em;
+                transition: 0.5s;
+                word-break: break-all;
+                
+            }
+        }
+    }
+}
+
+.exclusive-t {
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    &>h1 {
+        width:1200px;
+        margin-top: 20px;
+        margin: 0 auto;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+//center
+.sub-warp {
+    width: 1200px;
+    margin: 0 auto;
+    &>.top {
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #333 2px solid;
+        overflow: hidden;
+    }
+    &>.content {
+        width: 100%;
+        background: #f4f4f4;
+        overflow: hidden;
+        &>.con-cn {
+            width: 100%;
+            float: left;
+            overflow: hidden;
+            height: 715px;
+            & ul{
+                width: 1212px;
+                height: 715px;
+                &>li{
+                    float: left;
+                    width: 291px;
+                    height: 355px;
+                    background: #FFF;
+                    margin-right: 12px;
+                    margin-bottom: 2px;
+                    &>.pic{
+                        width: 270px;
+                        height: 270px;
+                        margin: 10px;
+                        text-align: center;
+                        overflow: hidden;
+                    }
+                    &>.title{
+                        padding: 5px 10px;
+                        &>p{
+                            font-size: 12px;
+                            color: #333;
+                            height: 32px;
+                            overflow: hidden;
+                        }
+                    }
+                    &>.price{
+                        padding: 0 10px;
+                        &>span{
+                            font-size: 16px;
+                            color: #ef1841;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

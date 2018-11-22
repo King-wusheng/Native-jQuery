@@ -1,0 +1,348 @@
+.inner {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 600px;
+  overflow: hidden;
+  margin: 100px 0 0 120px;
+}
+
+.inner > .login-form {
+  position: absolute;
+  right: 120px;
+  top: 0;
+  width: 350px;
+  height: 410px;
+  background: #fff;
+}
+
+.inner > .login-form > .login-tip {
+  position: absolute;
+  top: 10px;
+  right: 58px;
+}
+
+.inner > .login-form > .login-tip > .poptip {
+  border: 1px solid #f3d995;
+  height: 16px;
+  line-height: 16px;
+  padding: 5px 20px 5px 15px;
+  background: #fefcee;
+  position: relative;
+}
+
+.inner > .login-form > .login-tip > .poptip > .poptip-arrow {
+  top: 0;
+  position: absolute;
+  right: -40px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: url(../../image/dlew.png) no-repeat 0 0;
+}
+
+.inner > .login-form > .login-tip > .poptip > .poptip-content {
+  color: #df9c1f;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.inner > .login-form > .login-tip > .poptip > .poptip-content > .ico-safety {
+  display: inline-block;
+  background: url(../../image/dlbg.png) no-repeat -30px -30px;
+  width: 14px;
+  height: 14px;
+  margin: 0 8px -3px 0;
+}
+
+.inner > .login-form .login-title {
+  height: 18px;
+  line-height: 18px;
+  margin: 42px 25px 0;
+  padding: 8px 0 2px;
+}
+
+.inner > .login-form .login-title li {
+  float: left;
+  border-right: 1px solid #dedddd;
+  font-size: 16px;
+}
+
+.inner > .login-form .login-title li > a {
+  padding: 0 30px;
+}
+
+.inner > .login-form .login-title .last {
+  border-right: none;
+}
+
+.first > a {
+  color: #049ca2;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.field .ico-user, .field .ico-pwd, .field .ico-phone {
+  display: inline-block;
+  background: url(../../image/dlbg.png) no-repeat 0 0;
+  width: 22px;
+  height: 22px;
+  margin-top: 8px;
+}
+
+.field {
+  height: 42px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.field label {
+  display: block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  background: #f2f2f2;
+  text-align: center;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  outline: 0;
+}
+
+.field .login-put {
+  width: 300px;
+  font-size: 14px;
+  line-height: 42px;
+  height: 20px;
+  padding: 11px 8px 11px 50px;
+  border: 1px solid #e6e6e6;
+  font-family: "microsoft yahei";
+}
+
+.field .ico-pwd {
+  background-position: -30px 0;
+}
+
+.login-links {
+  height: 35px;
+  line-height: 35px;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.login-links .forget-pwd {
+  color: #999;
+}
+
+.login-links .register {
+  color: #f33;
+  float: right;
+}
+
+.submit button {
+  width: 300px;
+  height: 42px;
+  border: 0;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  line-height: 42px;
+  font-size: 18px;
+  color: #fff;
+  background: #f33;
+  cursor: pointer;
+  zoom: 1;
+  font-family: "microsoft yahei";
+}
+
+.corp-login {
+  overflow: hidden;
+  clear: both;
+  margin-top: 38px;
+}
+
+.corp-login dd a {
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin: 6px 6px 0 0;
+  background: url(../../image/QQ.png) 0 0 no-repeat;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.corp-login dd a:hover {
+  background-position-y: -24px;
+}
+
+.corp-login dd a.sina {
+  background-position: -56px 0;
+}
+
+.corp-login dd a.sina:hover {
+  background-position-y: -24px;
+}
+
+.corp-login dd a.baidu {
+  background-position: -84px 0;
+}
+
+.corp-login dd a.baidu:hover {
+  background-position-y: -24px;
+}
+
+.corp-login dd a.deyi {
+  background-position: -252px 0;
+}
+
+.corp-login dd a.deyi:hover {
+  background-position-y: -24px;
+}
+
+.corp-login dd a.weixin {
+  background-position: -280px 0;
+}
+
+.corp-login dd a.weixin:hover {
+  background-position-y: -24px;
+}
+
+.wrapper {
+  width: 100%;
+  display: table;
+}
+
+.footer_b {
+  border-top: 3px solid #34b9bc;
+  width: 100%;
+}
+
+.footer_b > .service {
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  background: #fff;
+}
+
+.footer_b > .service > ul {
+  height: 55px;
+}
+
+.footer_b > .service > ul > li {
+  float: left;
+  width: 200px;
+  text-align: center;
+  font: 16px/55px microsoft yahei;
+  color: #fff;
+  border: 0 none;
+}
+
+.footer_b > .service > ul > li > span {
+  display: inline-block;
+  padding-left: 60px;
+  position: relative;
+  color: #aaa;
+}
+
+.footer_b > .service > ul > li > span > b {
+  background: url(../../image/foot.png) no-repeat 0px -110px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+
+.footer_b .helper {
+  padding-bottom: 20px;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+}
+
+.footer_b .helper dl {
+  float: left;
+  width: 165px;
+  padding-left: 15px;
+}
+
+.footer_b .helper dl > dt {
+  margin: 20px 0 12px;
+  font: 16px/18px microsoft yahei;
+  color: #666;
+}
+
+.footer_b .helper dl > dd {
+  line-height: 20px;
+  padding: 0px 0px 0px 10px;
+  background: url(../../image/foot.png) no-repeat 0px -103px;
+}
+
+.footer_b > .menu {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.footer_b > .menu > p {
+  background-color: #34b9bc;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer_b > .menu > p > a {
+  color: #fff;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  padding: 0 8px 0 5px;
+  display: inline-block;
+}
+
+#ic1 {
+  background-position: 0 0;
+}
+
+#ic2 {
+  background-position: -50px 0;
+}
+
+#ic3 {
+  background-position: -100px 0;
+}
+
+#ic4 {
+  background-position: -150px 0;
+}
+
+#ic5 {
+  background-position: -200px 0;
+}
+
+#ic6 {
+  background-position: -250px 0;
+}
+
+.footer_b .helper dd.wlcx_icon {
+  background: url(../../image/foot.png) no-repeat 0px -150px;
+}
+
+.footer_b .copyright {
+  padding-bottom: 40px;
+  margin: 0 auto;
+  line-height: 22px;
+  color: #000;
+  width: 450px;
+  text-align: center;
+  font-family: microsoft yahei;
+  font-size: 12px;
+  position: relative;
+}

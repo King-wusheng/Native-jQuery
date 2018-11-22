@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../css/index/index.css">
+    <link rel="stylesheet" href="../css/index/reset.css">
+    <link rel="stylesheet" href="../css/index/overseas.css">
+    
+</head>
+<body>
+    <div class="right_bar">
+        <ul style="margin-top: 92px;">
+            <div imgsize="35">
+                <a href="#" style="display: block;width: 35px; height: 35px;"> </a>
+            </div>
+            <li class="right_login">
+                <a href="../html/register.html"></a> <span>立即登录</span> </li>
+            <li class="right_center">
+                <a href="##"></a> <span>会员中心</span> </li>
+            <div class="pobox">
+                <li class="right_shopcar">
+                    <a href="shopcar.html">购物车
+                        <div class="mini_num">0</div>
+                    </a>
+                </li>
+                <div class="cartLayerr cartEmptyr" style="display: none;">
+                    <p>您的购物车是空的,<br>快挑选喜欢的商品加入购物车吧</p>
+                </div>
+            </div>
+            <li class="right_order">
+                <a href="##" ></a> <span style="display: none; right: 35px;">我的订单</span> </li>
+            <li class="right_ma"> <img src="../image/erwei.jpg" width="100" style="display: none;"> </li>
+            <li class="right_service"> <span>在线客服</span> </li>
+            <li class="right_400"> <span style="display: none; right: 35px;">客服电话 400-848-1228</span> </li>
+            <li class="right_QA">
+                <a href="##" target="_blank"></a> <span>常见问题</span> </li>
+        </ul>
+        <div class="right_gotop" id="go_top"><span>回到顶部</span></div>
+    </div>
+    <div class="topnav" id="header">
+        <div class="wbox clearfix">
+            <div class="login_info fl">
+                <p>您好，欢迎来到武商网！<a href="../html/register.html">请登录</a>&nbsp;&nbsp;<a href="logon.html">免费注册</a><br></p>
+            </div>
+            <div class="topmenu fr">
+                <ul>
+                    <li class="sn_menu">
+                        <a href="##" class="menu_hd">我的订单</a>
+                    </li>
+                    <li class="sn_menu miniCart">
+                            <a class="menu_hd" href="shopcar.html">购物车<span class="mini_num" style="color:red; font-size:15px;">0</span>件</a>
+                    </li>
+                    <li class="sn_menu">
+                        <a href="##" class="menu_hd color_red">移动端</a>
+                    </li>
+                    <li class="sn_menu">
+                        <a href="##" class="menu_hd">会员中心<b></b></a>
+                        <div class="menu_bd" style="display:none;">
+                            <a href="##">我的优惠券</a>
+                            <a href="##" t>我的收藏</a>
+                            <a href="##">使用优惠券</a>
+                            <a href="##">联系客服</a>
+                        </div>
+                    </li>
+                    <li class="sn_menu">
+                        <a href="##" class="menu_hd">帮助中心<b></b></a>
+                        <div class="menu_bd" style="display:none;">
+                            <a href="##">新会员注册</a>
+                            <a href="##">购物流程</a>
+                            <a href="##">一卡通支付</a>
+                            <a href="##">常见问题</a>
+                            <a href="##">移动端下载</a>
+                        </div>
+                    </li>
+                    <li class="sn_menu">
+                        <a href="##" class="menu_hd">商家入驻<b></b></a>
+                        <div class="menu_bd" style="display:none;">
+                            <a href="##">操作手册</a>
+                            <a href="##">热招品类</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wbox header" id="header1">
+        <div>
+            <div class="logo fl">
+                <a href="##"><img src="../image/overseas.png"></a>
+            </div>
+            <div class="logoricon fl" >
+                <a href="##"><img src="../image/kb.png"></a>
+            </div>
+            <div class="wsectopsearch fr">
+                <div class="fixwrap"><i></i>
+                    <div class="topsearch" style="border:2px solid #775dcf"> 
+                            <input type="text"  class="search_put2" placeholder="请输入要查找的内容">
+                            
+                            <button class="search_btn" id="search_btn" style="background:#775dcf;width:80px">搜 索</button>
+                            <ul id="list2"></ul>
+                    </div>
+                </div>
+                <div class="wsectoptextarea">
+                    <div class="wsectoptex" >
+                        <ul>
+                            <li id="sousuo">
+                                <a href="#" style="color: #775dcf">Whoo后</a>
+                            </li>
+                            <li>
+                                <a href="#">雪花秀</a>
+                            </li>
+                            <li>
+                                <a href="#">YSL</a>
+                            </li>
+                            <li>
+                                <a href="#">澳洲爱他美</a>
+                            </li>
+                            <li>
+                                <a href="#">基础营养</a>
+                            </li>
+                            <li>
+                                <a href="#">头发护理</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html"><img src="../image/car.jpg" class="ws"></a>
+    </div>
+
+    <div class="mainnav1">
+        <div class="wbox">
+            <div class="mallCategory" categoryshow="T">
+                <div class="mallSort kjg_mallSort" data-type="fcat" dataid="kjg_nav">
+                    <a href="#" class="sortLink kjg_sortLink"><i></i>海外商品分类</a>
+                    <!--所有商品分类-->
+                    <div class="sort-m kjg_sort-m" style="width: 200px;">
+                        <div class="sort kjg_sort" style="display:block;">
+                            <div class="item2">
+                                <h3>
+                                    <span class="tb-ico0" style="margin-left: 0px;"></span>
+                                    <a  href="##">美妆个护</a>
+                                </h3>
+                                <p>
+                                    <a  href="##">护肤</a>
+                                    <a href="##">眼部护理</a>
+                                    <a href="##">美体</a>
+                                    <a href="##"> 彩妆</a>
+                                    <a href="##">个护</a>
+                                    <a href="##">口腔</a>
+                                    <a href="##">护发</a>
+                                </p><em></em></div>
+                            <div class="item2 bg">
+                                <h3>
+                                    <span class="tb-ico1" style="margin-left: 0px;"></span>
+                                    <a  href="##">母婴用品</a>
+                                </h3>
+                                <p data-type="textLinkList" data-id="item_son1">
+                                    <a  href="##">奶粉</a>
+                                    <a  href="##">辅食</a>
+                                    <a  href="##">洗护</a>
+                                    <a  href="##">营养补充</a>
+                                </p><em></em></div>
+                            <div class="item2">
+                                <h3><span class="tb-ico2" style="margin-left: 0px;"></span><a  href="##">进口食品</a></h3>
+                                <p data-type="textLinkList" data-id="item_son2">
+                                    <a  href="##">谷物</a>
+                                    <a  href="##">茶饮咖啡</a>
+                                    <a  href="##">蜂蜜</a>
+                                    <a  href="##">糖果</a>
+                                </p><em></em></div>
+                            <div class="item2 bg">
+                                <h3>
+                                    <span class="tb-ico3" style="margin-left: 0px;"></span>
+                                    <a  href="##">营养保健</a>
+                                </h3>
+                                <p data-type="textLinkList" data-id="item_son3">
+                                    <a  href="##">Swisse</a>
+                                    <a  href="##">澳佳宝</a>
+                                    <a  href="##">佳思敏</a>
+                                </p><em></em></div>
+                        </div>
+                        <div class="sort-two" style="display: none;">
+                            <!--第二层商品分类层-->
+                            <!--end 第二层商品分类层-->
+                        </div>
+                    </div>
+                    <!--end 所有商品分类-->
+                </div>
+            </div>
+            <div class="nav1 kjg_nav1" data-type="textLinkList" data-id="kjg_topNav">
+                <ul>
+                    <li>
+                        <a arget="_blank" href="##" class="">所有商品</a>
+                    </li>
+                    <li>
+                        <a  href="##">面膜</a><span class="sale-ico"></span></li>
+                    <li>
+                        <a  href="##">彩妆</a>
+                    </li>
+                    <li>
+                        <a  href="##" style="font-weight: 600;color: #f42e2d">宝宝奶粉</a>
+                        <span class="new-ico"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="banner">
+        <ul class="slide_adv">
+            <li style="z-index: 1;">
+                <div class="wbox slide_main">
+                    <a href="##" class="slide_link"><img src="../image/sea_banner1.jpg" alt="" width="1920" height="450" class="scale"></a>
+                </div>
+            </li>
+            <li>
+                <div class="wbox slide_main">
+                    <a  href="##" class="slide_link"><img src="../image/sea_banner2.jpg" alt="" width="1920" height="450" class=""></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="movie_in movie_in_PL">
+        <ul data-type="productGroup" data-id="movie_in" class="fl">
+            <li class="recommendd">
+                <a href="list.html?id=p_13901033">
+                    <div class="pic">
+                        <img src="../image/sea_right1.jpg" alt="美国雅诗兰黛红石榴洗面奶125ml" title="美国雅诗兰黛红石榴洗面奶125ml">
+                        </div>
+                    <div class="title">
+                        <p>美国雅诗兰黛红石榴洗面奶125ml</p>
+                    </div>
+                    <div class="price">
+                        <span style="font-size: 12px;">跨境价:</span>
+                        <div class="p_area"><span class="mark">¥ </span>
+                            <span class="num">279</span>
+                            <span class="down">.00</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="recommendd">
+                <a href="list.html?id=p_11860097">
+                    <div class="pic"><img src="../image/sea_right2.jpg" alt="韩国AHC B5玻尿酸面膜白金版（蓝包装）5片保湿 修复 舒缓抗皱 " title="韩国AHC B5玻尿酸面膜白金版（蓝包装）5片保湿 修复 舒缓抗皱 ">
+                        </div>
+                    <div class="title">
+                        <p>韩国AHC B5玻尿酸面膜白金版（蓝包装）5片保湿 修复 舒缓抗皱 </p>
+                    </div>
+                    <div class="price"><span style="font-size: 12px;">跨境价:</span>
+                        <div class="p_area"><span class="mark">¥ </span>
+                            <span class="num">115</span>
+                            <span class="down">.00</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="wbox mb55" id="item1">
+        <div class="floor_title"  imgsize="1200X40">
+            <a href="##" ><img height="40" src="../image/seah1.jpg" alt=""></a>
+        </div>
+        <div class="floor_image f1" imgsize="300*480" data-id="f1" style="background: url(../image/sea_l1.jpg) no-repeat top center">
+            <a href="##" style="width: 100%; height: 250px; display: block"></a>
+            <div class="text">
+                <h4>————<span>最热HOT</span>————</h4>
+                <ul>
+                    <li>
+                        <a href="##" >吕</a>
+                    </li>
+                    <li>
+                        <a href="##" >熊野油脂</a>
+                    </li>
+                    <li>
+                        <a href="##" >肌美精</a>
+                    </li>
+                    <li>
+                        <a href="##" >SNP</a>
+                    </li>
+                    <li>
+                        <a href="##" >AHC</a>
+                    </li>
+                    <li>
+                        <a href="##" >马油</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="floor_pro1" class="floor_pro">
+            <ul class="fl">
+                <li>
+                    <a  href="list.html?id=p_14490033">
+                        <div class="pic"><img src="../image/sear1.jpg" alt="【澳洲直邮|包税包邮】INS爆款 Face halo 懒人清水轻松卸妆海绵卸妆粉扑无需卸妆油" title="【澳洲直邮|包税包邮】INS爆款 Face halo 懒人清水轻松卸妆海绵卸妆粉扑无需卸妆油">
+                            
+                        </div>
+                        <div class="title">【澳洲直邮|包税包邮】INS爆款 Face halo 懒人清水轻松卸妆海绵卸妆粉扑无需卸妆油</div>
+                        <div class="price">198.00</div>
+                    </a>
+                </li>
+                <li>
+                    <a  href="list.html?id=p_14540033">
+                        <div class="pic">
+                            <img src="../image/sear2.jpg" alt="澳洲直邮 RHEA死海泥磁石面膜 吸走深层黑色素 吸附毛孔去角质深层清洁面膜 100g" title="澳洲直邮 RHEA死海泥磁石面膜 吸走深层黑色素 吸附毛孔去角质深层清洁面膜 100g">
+                            
+                        </div>
+                        <div class="title">澳洲直邮 RHEA死海泥磁石面膜 吸走深层黑色素 吸附毛孔去角质深层清洁面膜 100g</div>
+                        <div class="price">359.00</div>
+                    </a>
+                </li>
+                <li>
+                    <a  href="list.html?id=p_14500020">
+                        <div class="pic">
+                            <img src="../image/sear3.jpg" alt="韩国香蒲丽黄金水光面膜 272g" title="韩国香蒲丽黄金水光面膜 272g">
+                            
+                        </div>
+                        <div class="title">韩国香蒲丽黄金水光面膜 272g</div>
+                        <div class="price">168.00</div>
+                    </a>
+                </li>
+                <li>
+                    <a  href="list.html?id=p_14510032">
+                        <div class="pic">
+                            <img src="../image/sear4.jpg" alt="韩国伊思晶钻蜗牛隔离BB霜 50ml 提亮肤色" title="韩国伊思晶钻蜗牛隔离BB霜 50ml 提亮肤色">
+                            
+                        </div>
+                        <div class="title">韩国伊思晶钻蜗牛隔离BB霜 50ml 提亮肤色</div>
+                        <div class="price">99.00</div>
+                    </a>
+                </li>
+                <li>
+                    <a  href="list.html?id=p_13935992">
+                        <div class="pic">
+                            <img src="../image/sear5.jpg" alt="法国纪梵希Givenchy四宫格散粉正装 #01 #07" title="法国纪梵希Givenchy四宫格散粉正装 #01 #07">
+                        </div>
+                        <div class="title">法国纪梵希Givenchy四宫格散粉正装 #01 #07</div>
+                        <div class="price">468.00</div>
+                    </a>
+                </li>
+                <li>
+                    <a  href="list.html?id=p_14490000">
+                        <div class="pic">
+                            <img src="../image/sear6.jpg" alt="【澳洲直邮|包税包邮】Eaoron 面部清洁保湿护肤3件套装 洗面奶+爽肤水+乳液" title="【澳洲直邮|包税包邮】Eaoron 面部清洁保湿护肤3件套装 洗面奶+爽肤水+乳液">
+                            
+                        </div>
+                        <div class="title">【澳洲直邮|包税包邮】Eaoron 面部清洁保湿护肤3件套装 洗面奶+爽肤水+乳液</div>
+                        <div class="price">289.00</div>
+                    </a>
+                </li>
+                <li>
+                    <a  href="list.html?id=p_14470008">
+                        <div class="pic">
+                            <img src="../image/sear7.jpg" alt="【澳洲直邮|包税包邮】Eaoron水光针美白精华胶囊108粒 抗皱紧致淡斑 修复补水保湿 外敷" title="【澳洲直邮|包税包邮】Eaoron水光针美白精华胶囊108粒 抗皱紧致淡斑 修复补水保湿 外敷">
+                            
+                        </div>
+                        <div class="title">【澳洲直邮|包税包邮】Eaoron水光针美白精华胶囊108粒 抗皱紧致淡斑 修复补水保湿 外敷</div>
+                        <div class="price">298.00</div>
+                    </a>
+                </li>
+                <li>
+                    <a  href="list.html?id=p_14490012">
+                        <div class="pic">
+                            <img src="../image/sear8.jpg" alt="AHC 第六代眼霜 30ml 去黑眼圈 眼纹" title="AHC 第六代眼霜 30ml 去黑眼圈 眼纹">
+                            
+                        </div>
+                        <div class="title">AHC 第六代眼霜 30ml 去黑眼圈 眼纹</div>
+                        <div class="price">68.00</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class=" floor_logo">
+            <div class=" floor_logo_title">
+                <img width="176" src="../image/seahot.jpg"></div>
+            <div class="slide_wrap">
+                <ul class=" floor_logoes" imgsize="176*80">
+                    <li style="z-index:1">
+                        <a href="##" >
+                            <img src="../image/seahot1.jpg" alt="韩国蜂蜜面膜">
+                            <p>韩国蜂蜜面膜</p>
+                        </a>
+                        <a href="##" >
+                            <img src="../image/seahot2.jpg" alt="韩国热销面膜">
+                            <p>韩国热销面膜</p>
+                        </a>
+                        <a href="##" >
+                            <img src="../image/seahot3.jpg" alt="动物面膜创始品牌">
+                            <p>动物面膜创始品牌</p>
+                        </a>
+                        <a href="##" >
+                            <img src="../image/seahot4.jpg" alt="韩国高端护肤品牌">
+                            <p>韩国高端护肤品牌</p>
+                        </a>
+                        <a href="##" >
+                            <img src="../image/seahot5.jpg" alt="韩国面膜专家">
+                            <p>韩国面膜专家</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" >
+                            <img src="../image/seahot6.jpg" alt="韩国汉方洗护发">
+                            <p>韩国汉方洗护发</p>
+                        </a>
+                        <a href="##" >
+                            <img src="../image/seahot7.jpg" alt="韩国蜗牛精华护肤">
+                            <p>韩国蜗牛精华护肤</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    
+
+    <div class="footer_b1 kjg_footer">
+        <div class="helper clearfix">
+            <div class="wbox" >
+                <dl> 
+                    <dt class="xssl">新手指南</dt>
+                    <dd>
+                        <a  href="logon.html" >新手注册</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >账号密码</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >会员特权</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >常见问题</a>
+                    </dd>
+                </dl>
+                <dl> 
+                    <dt class="gwzn">购物指南</dt>
+                    <dd>
+                        <a  href="##" >购买流程</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >优惠券使用说明</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >购买须知</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >验货与签收</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >支付方式</a>
+                    </dd>
+                </dl>
+                <dl> 
+                    <dt class="wlkd">售后服务</dt>
+                    <dd>
+                        <a  href="##" >身份证图片修改</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >退换货规则</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >退款规则</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >联系客服</a>
+                    </dd>
+                </dl>
+                <dl> 
+                    <dt class="shfw">物流配送</dt>
+                    <dd>
+                        <a  href="##" >发货时效</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >配送流程</a>
+                    </dd>
+                </dl>
+                <dl> 
+                    <dt class="tsws">关于我们</dt>
+                    <dd>
+                        <a  href="##" >关于武商</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >版权声明</a>
+                    </dd>
+                    <dd>
+                        <a  href="##" >诚邀精英</a>
+                    </dd>
+                </dl>
+                <div class="foot_grcode">
+                    <p class="weixin" imgsize="85X85"> 
+                        <img src="http://img1.wushang.com/img/2015/5/22/5550139.jpg" width="85" height="85"> 
+                        <img src="http://219.140.62.244/img/2016/6/29/1530074.png" width="150"> 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright" data-type="htmlSource" data-id="copyright">
+            <p>ICP证：鄂ICP备13014517号 增值电信业务经营许可证：鄂B2-20100129</p>
+            <p>版权所有 武汉武商电子商务有限公司 All Rights Reserved 2013-2018 </p>
+            <div style="width:300px;margin:0 auto; padding:5px 0;">
+                <a  href="##" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                    <img src="http://img2.wushang.com/img/2016/6/22/11722678.png" width="20" style="float:left;">
+                    <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#775DCF;">鄂公网安备 42010302000218号</p>
+                </a>
+            </div>
+            <p class="light">技术支持：广州市信景技术有限公司</p>
+        </div>
+        
+    </div>
+</body>
+</html>
+<!-- #775dcf -->
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="../js/common/header_main.js"></script>
+<script src="../js/common/header/search .js"></script>
+<script src="../js/js/overseas.js"></script>

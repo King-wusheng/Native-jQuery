@@ -1,0 +1,335 @@
+.w {
+  width: 1210px;
+  margin: auto;
+}
+
+.shopcartHead {
+  height: 95px;
+}
+
+.shopcartHead > .fl {
+  float: left;
+}
+
+.shopcartHead > .shopcartStep {
+  float: right;
+  margin-top: 38px;
+  font-family: microsoft yahei;
+  position: relative;
+}
+
+.shopcartHead > .shopcartStep > ul > li {
+  width: 175px;
+  height: 40px;
+  float: left;
+  white-space: nowrap;
+  position: relative;
+}
+
+.shopcartHead > .shopcartStep > ul > li > .line {
+  background: #d1d1d1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+
+.shopcartHead > .shopcartStep > ul > li > .radius {
+  background: #d1d1d1;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: -14px;
+  left: 50%;
+  margin-left: -14px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 50%;
+}
+
+.shopcartHead > .shopcartStep > ul > li > .title {
+  float: left;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+  min-width: 175px;
+  text-align: center;
+}
+
+.shopcartStep > ul > li:nth-child(1) > .line {
+  background: #00b5be;
+}
+
+.shopcartStep > ul > li:nth-child(1) > .radius {
+  background: #00b5be;
+}
+
+.shopcartStep > ul > li:nth-child(1) > .title {
+  color: #00b5be;
+}
+
+.shopcart_wrap {
+  background-color: #f3f3f3;
+  border-top: #ededed 1px solid;
+  padding: 0 0 15px;
+}
+
+.shopcart_wrap > .w {
+  width: 1210px;
+  margin: auto;
+}
+
+.shopcart_wrap > .w > .regionTo {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  margin: 30px 0 10px;
+}
+
+.shopcart_wrap > .w > .regionTo > .cart_tit {
+  float: left;
+  font: 18px microsoft yahei;
+}
+
+.shopcart_wrap > .w > .regionTo > .but {
+  color: #005aa0;
+  font: 12px verdana;
+}
+
+.shopcart_wrap > .w > .cartMain > .cartTh {
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+  background-color: #fafafa;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.shopcart_wrap > .w > .cartMain > .cartTd {
+  width: 100%;
+  background-color: #fff;
+}
+
+.shopcart_wrap > .w > .cartMain > .cartTd > li {
+  height: 130px;
+  width: 100%;
+  margin-bottom: -1px;
+  padding: 20px 0;
+  min-height: 80px;
+  border-bottom: 1px solid #ededed;
+}
+
+.menu_bd {
+  z-index: 30;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.c_check {
+  width: 130px;
+  margin: 0 0 0 25px;
+  text-align: left;
+}
+
+.all {
+  float: left;
+  vertical-align: baseline;
+  position: relative;
+  top: 16px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #cfcfcf;
+}
+
+.c_operate {
+  cursor: pointer;
+}
+
+.cartTh > div {
+  float: left;
+}
+
+.cartTd > li > div {
+  float: left;
+}
+
+.c_name {
+  width: 150px;
+  margin: 0 0 0 35px;
+}
+
+.c_price {
+  width: 160px;
+}
+
+.c_price > span {
+  display: block;
+  width: 160px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.c_num {
+  width: 180px;
+}
+
+.c_num > .midde {
+  width: 87px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 20px;
+  margin-left: 45px;
+}
+
+.c_num input {
+  width: 20px;
+  height: 20px;
+}
+
+.c_total {
+  width: 180px;
+}
+
+.c_operate {
+  width: 100px;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.giftWrap {
+  line-height: 18px;
+  padding: 10px 0 0px 154px;
+}
+
+.giftWrap > .item1 {
+  line-height: 18px;
+  margin-bottom: 4px;
+  color: #929292;
+  font-size: 12px;
+}
+
+.giftWrap > .item1 > span {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 4px;
+  margin-right: 12px;
+  position: relative;
+  background: #eaeaea;
+}
+
+.giftWrap > .item1 a {
+  color: #929292;
+}
+
+.numbox .val {
+  text-align: center;
+  width: 35px;
+  height: 26px;
+  padding: none;
+}
+
+.upjiesuan {
+  width: 100%;
+  background-color: #fff;
+  margin: 20px 0 30px 0;
+  color: #333;
+  overflow: hidden;
+}
+
+.upjiesuan > .options {
+  float: left;
+  margin-left: 25px;
+  line-height: 60px;
+}
+
+.upjiesuan > .options > .all1 {
+  float: left;
+  vertical-align: baseline;
+  position: relative;
+  top: 16px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #cfcfcf;
+}
+
+.fr {
+  float: right;
+}
+
+.upjiesuan .btn_area a {
+  display: inline-block;
+  width: 114px;
+  height: 60px;
+  background-color: #e60000;
+  font: 24px/60px microsoft yahei;
+  color: #fff;
+  text-align: center;
+  transition: all .25s;
+}
+
+.upjiesuan .price_sum {
+  float: right;
+  height: 43px;
+  line-height: 20px;
+  margin: 20px 15px 0 10px;
+  color: #666;
+}
+
+.upjiesuan .price_sum > div > .txt {
+  float: left;
+  width: 110px;
+  text-align: right;
+}
+
+.upjiesuan .price_sum > div > .price {
+  text-align: right;
+  font-family: arial;
+  font: 18px microsoft yahei;
+  color: #e60000;
+}
+
+.upjiesuan .price_sum > div > .price > b {
+  font: 18px microsoft yahei;
+  color: #e60000;
+}
+
+.upjiesuan .amount_sum {
+  line-height: 20px;
+  margin: 20px 0px 0 10px;
+  color: #666;
+}
+
+.upjiesuan .amount_sum b {
+  font: 14px verdana;
+  color: #e60000;
+  margin: 0 3px;
+}
+
+.cartMain .c_total {
+  width: 180px;
+}
+
+.textPrimary {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

@@ -1,0 +1,115 @@
+.sub-warp {
+  width: 1200px;
+  overflow: hidden;
+  margin: 40px auto;
+}
+
+.sub-warp > .exclusive-t {
+  width: 100%;
+  overflow: hidden;
+}
+
+.sub-warp > .exclusive-t > h1 {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.sub-warp > .exclusive-t > h1 > img {
+  margin: 0 auto;
+}
+
+.sub-warp > .exclusive-c {
+  width: 1205px;
+  margin-top: 20px;
+  position: relative;
+  float: left;
+}
+
+.sub-warp > .exclusive-c > ul > li {
+  float: left;
+  width: 236px;
+  margin: 0px 5px 0px 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+em {
+  font-style: normal;
+}
+
+.wrapper {
+  width: 100%;
+  display: table;
+}
+
+.wrapper > .sub-warp {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper > .sub-warp > .cate {
+  width: 100%;
+  height: 44px;
+  margin-top: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.wrapper > .sub-warp > .cate > .tabs {
+  display: inline-block;
+  padding: 0 20px;
+  height: 44px;
+  background-color: #333;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+
+.wrapper > .sub-warp > .cate > .tabs > ul > li {
+  float: left;
+  color: #FFF;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.wrapper > .sub-warp > .cate > .tabs > ul > li > span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.wrapper > .sub-warp > .cate > .tabs .cur > span {
+  background-color: #00b5be;
+}
+
+.wrapper > .sub-warp > .cate > .tabs .cur em {
+  color: #00b5be;
+}
+
+.wrapper > .sub-warp > .brand-list {
+  width: 100%;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.wrapper > .sub-warp > .brand-list > .itembrand {
+  width: 1215px;
+  overflow: hidden;
+}
+
+.wrapper > .sub-warp > .brand-list > .itembrand > ul > li {
+  float: left;
+  width: 228px;
+  margin: 15px 15px 0 0;
+  overflow: hidden;
+}
+
+.wrapper > .sub-warp > .brand-list > .itembrand > ul > li > a > img {
+  width: 228px;
+}
